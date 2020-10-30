@@ -376,14 +376,9 @@ h6 { font-size: 16px;}
   and (device-width : 414px)
   and (device-height : 896px)
   and (-webkit-device-pixel-ratio : 2) {
-		#preview-shadow{
-			max-width: 280px;
-			height: 180px;
-			padding-left: 10px;
-			padding-top: 10px;
-		}
-		#preview{
-			width: 280px;
+		.window-container{
+			width: auto;
+			margin: 0 auto;
 		}
 }
 
