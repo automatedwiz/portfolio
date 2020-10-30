@@ -371,7 +371,12 @@ h6 { font-size: 16px;}
 	border:none;
 }
 
-
+/* 1792x828px at 326ppi */
+@media only screen
+    and (device-width : 414px)
+    and (device-height : 896px)
+    and (-webkit-device-pixel-ratio : 2) { }
+		
 @media screen and (max-width: 1200px){
 	.main-container{
 		width: 95%;
