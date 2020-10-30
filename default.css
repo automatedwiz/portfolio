@@ -380,7 +380,7 @@ h6 { font-size: 16px;}
   and (device-height : 896px)
   and (-webkit-device-pixel-ratio : 2) {
 		.window-container{
-			max-width: 280px;
+			width: 50%;
 		}
 }
 
